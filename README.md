@@ -6,7 +6,7 @@ In this repository, a RDF file is provided with the Portuguese connection betwee
 which also has information about the confidence level of each triple (which is a value that
 represents the number of sources that supported that connection between the words, being the maximum value 10).
 
-Some words in the document also contain information about their polarity (which is the same as sentimental value), from the SentiLex-PT dataset, the SentiLex-flex-PT version, which 
+Some words in the document also contain information about their polarity (which is the same as sentimental value), from the SentiLex-PT dataset, the [SentiLex-flex-PT](https://github.com/sillasgonzaga/lexiconPT/blob/master/data-raw/SentiLex-flex-PT02.txt) version, which 
 contains various inflected forms of each lemma.
 
 ## Onto.PT
@@ -17,7 +17,7 @@ Each line of the source document has a relationship between two lemmas.
 
 ## SentiLex-PT
 
-[SentiLex-PT](https://github.com/sillasgonzaga/lexiconPT/blob/master/data-raw/SentiLex-lem-PT02.txt) is a sentiment lexicon designed for the extraction of sentiment and opinion about human entities in Portuguese texts. We use this dataset to complement
+[SentiLex-PT](https://github.com/sillasgonzaga/lexiconPT/blob/master/data-raw/SentiLex-flex-PT02.txt) is a sentiment lexicon designed for the extraction of sentiment and opinion about human entities in Portuguese texts. We use this dataset to complement
 the information about words, with information about the polarity. For more information about this dataset you can click [here](https://www.inesc-id.pt/ficheiros/publicacoes/11406.pdf).
 
 
